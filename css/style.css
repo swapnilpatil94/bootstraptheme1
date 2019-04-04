@@ -1,0 +1,572 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+
+    }
+    body{
+        color:white;
+    }
+   
+    .home{
+        width: 100% ;
+        height: auto;
+        background: linear-gradient(135deg, hsla(234, 100%, 8%, 0.9), hsl(208, 100%, 43%,0.98)),
+        url("../images/background/background.jpg") ;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .logo{
+        padding-left: 80px;
+    }
+    .bg-nav-color{
+        background:  linear-gradient(135deg, hsla(234, 100%, 8%, 0.9), hsl(208, 100%, 43%,0.8));
+        
+    }
+    .navbar{
+        height: 15%;
+        /* box-shadow: 2px 2px 5px #0d0d0eef;  */
+
+    }
+    .navbar-nav{
+        padding-right: 100px;
+    }
+    .nav-item{
+        padding-left: 10px;
+
+    }
+    .nav-link{
+        color:white;
+        font-family:'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+        font-weight: 600;
+    }     
+    .navbar-nav .nav-link:hover{
+        background-color: rgba(1, 8, 75, 0.2);
+        color: white;
+        box-shadow: 2px 2px 5px #cacbd44d; 
+        border-radius: 30px;
+
+    }
+
+    #home-para{
+        
+        color: white;
+        width: 79%;
+        padding-left:10%;
+        text-align: justify;
+    }
+    #home-img{
+        padding-top: 20%;
+        width: 70%;
+    }
+    #home-img:hover{
+        transform: scale(1.15);
+        
+    }
+
+    button{
+        padding-top: 20%;
+    }
+    #home-btn{
+        
+        color: white;
+        text-transform: uppercase;
+        margin-left: 25%;
+        margin-top: 8%;
+        
+    } 
+    #home-btn a{
+        text-decoration: none;
+        color:white;
+
+    }
+    #home-btn:hover{
+        color: whitesmoke;
+        box-shadow: 8px 8px 8px 8px #0004284d; 
+    }
+
+    .btn-{
+        color: white;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 30px;
+        
+    }
+    #carouselHome{
+        padding-top: 25%;
+
+    }
+
+        /*-*-*-*-*-*-*-*-*-*-*-*-*-*--About Us*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+    #About{
+        width:100%;
+        height: auto;
+    }
+    .heading{
+        text-align: center;
+        padding-top:8%;
+        font-weight: 700;
+        color:#01073f;
+    }
+    .aboutH3{
+        text-align: center;        
+    }
+
+    .about-para{
+        text-align: center;
+        width:80%;
+        margin-left: 10%;
+        padding-top: 3%;
+        font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+    }
+
+    .about-grid{
+        padding-top: 2%;
+    }
+    
+    .icon{     
+        margin-left: 35%;
+        background: linear-gradient( hsla(234, 100%, 8%,0.8), hsl(208, 100%, 43%,0.98));   
+        width: 100px; 
+        height: 100px;    
+        text-align: center;
+        border-radius: 100px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+        justify-content: center;
+           
+    }
+    .icon:hover{
+        box-shadow:  0 15px 15px rgba(0,0,0,0.3);
+    }
+    .iconPosition{
+        justify-content: center;
+        margin-top: 22%;
+    }
+        
+    .icon-para{
+        text-align: justify;
+        padding-top: 9%;
+    }
+
+   /*************************Features****************************/     
+   #Features{
+       width: 100%;
+       height: auto;
+       background: linear-gradient(135deg, hsla(234, 100%, 8%, 0.9), hsl(208, 100%, 43%,0.8)),url("../images/background/apple-coffee-computer-459653.jpg") ;
+        background-size: cover;
+        background-attachment: fixed;
+   }
+    .featuresHeading{
+        color: white;
+        text-align: center;
+        padding-top:8%;     
+        font-weight: 700;
+    }
+    .card-head{
+        width: 80%;
+        font-weight: 800;
+        padding:2% 3% 0;
+        text-align: center;
+    }
+    .card-para{
+        width: 70%;
+        text-align:right;
+        padding-left: 5%;
+    }
+    .card-icon{
+        background-color: #010633;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        margin-left:70%;
+        margin-top: -20;
+
+    }
+    #firstCard {
+        box-shadow:  0 5px 5px rgba(2, 20, 59, 0.959);
+        border-radius: 16px;
+        padding-top: 8%;
+        
+
+    }
+        
+    #firstCard:hover{
+        box-shadow:  0 10px 10px rgba(2, 20, 59, 0.959);
+        border-radius: 16px;
+    }
+
+    #secondCard{
+        box-shadow:  0 5px 5px rgba(2, 20, 59, 0.959);
+        border-radius: 16px;
+        padding-top: 8%;
+    }
+    #secondCard .card-icon{
+        position: absolute;;
+        right:80%;
+    }
+    #secondCard .card-head1{
+        
+        text-align: center;
+        font-weight: 800;
+    }
+    #secondCard .card-para{
+        width:90%;
+        text-align:left;
+        padding-left: 25%;
+    }
+    #secondCard:hover{
+        box-shadow:  0 10px 10px rgba(2, 20, 59, 0.959);
+        border-radius: 16px;
+    }
+    /****************************Showcase*********************************/
+    #Showcase{
+        width: 100%;
+        height: auto;
+        background-color: #f3f5f8c7;
+        color: black;
+    }
+
+    .showcase-img1{
+        position: absolute;
+        top:50;
+    }
+
+    .post-h5{
+        font-weight: 400;
+        font-size: 25;
+    }
+    .post-para{
+        padding-top:30px;
+        width: 80%;
+        text-align: justify;
+    }
+    .post-small{
+        padding:30px;
+    }
+    .post-h6{
+        font-size: 18px;
+        font-weight: 350;
+    }
+    /******************************************Testimonials***************************************/
+    #Testimonials{
+        width:100%;
+        height: auto;
+/*        background: linear-gradient(135deg, hsl(234, 100%, 8%), hsl(208, 100%, 43%,0.5)),url("'../images/background/5.jpg");*/
+        background-size: cover;
+
+        background:linear-gradient(135deg, hsl(234, 100%, 8%,0.2), hsl(208, 100%, 43%,0.5)), url('../images/background/5.jpg');
+        background-attachment: fixed;
+
+    }
+    .carousel{
+        padding-top:30px;
+    }
+    
+    .testimonial-img{
+        width:150px;
+        height: 150px;
+        border-radius: 150px;
+        margin-left: 45%;
+        border: 5px solid white;
+    }
+    .testimonial-para{
+        width: 70%;
+        color: white;
+        text-align: center;
+        padding: 30px 40px 50;
+        margin-left: 20%;
+    }
+    .test-name{
+        color:white;
+        text-align: center;
+    }
+
+    /******************************************* TEAM ***************************************************/
+
+    #Team{
+        width: 100%;
+        height: auto;
+        background: #f3f5f8c7;
+    }
+
+    .team{
+        padding-top: 1%;
+        
+    }
+    .teamImg{
+        
+        box-shadow:  0 5px 5px 2px rgba(0, 0, 0, 0.5);
+    }
+    .teamImg:hover{
+        
+        box-shadow:  0 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .team-img {
+        /* position: relative;
+        left:-2.2%; */
+        width:100%;
+    }
+    .team-info{
+        height: 80px;
+        text-align: center;
+        width: 100%;
+       
+    }
+    .gradient-color{
+        background: linear-gradient(-45deg, #000428, #0074da);
+    }
+    .team-info h5{
+        font-weight: 800px;
+        letter-spacing: 5;
+        color:red;
+
+    }
+
+    /* ********************************** Pricing ************************************************/
+
+    #Pricing{
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .price-cont{
+        background:linear-gradient(to left bottom,rgba(66, 118, 187, 0.411),rgb(174, 174, 223));
+        text-align: center;
+        border-radius: 10px;
+        height:auto;
+        width:90%;
+        box-shadow:   5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    }
+    .pric-cont:hover{
+    background:linear-gradient(to left bottom,rgba(66, 118, 187, 0.411),rgb(174, 174, 223));
+    box-shadow:  15px 15px 15px rgba(0, 0, 0, 0.5);
+   }
+
+    .p-b-1{
+        padding-top:9%;
+        font-weight: 400;
+        font-size:25px;
+    }
+    .p-tb-1{
+        padding: 4%;
+        list-style: none;
+        line-height: 210%;
+    }
+    
+    .price-big{
+        font-weight: 400;
+        font-size:45px;
+    } 
+
+    .bg-btn{
+        border: 2px solid white;
+        width:80%;
+        padding: 5%;
+        border-radius: 100px;
+        color:white;
+    }
+
+    .bg-btn:hover{
+        box-shadow:   5px 5px 5px rgba(0, 0, 0, 0.5);
+        color:white;
+
+    }
+    .best{
+        background: linear-gradient(to right bottom, hsla(234, 100%, 8%, 0.9), hsl(208, 100%, 43%,0.8));
+        color:white;
+    }
+    .pHover:hover{
+        background: #1d5d9671;
+    }
+    
+    .rb {
+        position: absolute;
+        transform: rotate(25deg);
+        margin-left: 70%;
+    }
+    .BB{
+        border:1px solid rgb(6, 1, 37);
+        color:#010633;
+    }
+    /******************************************F A Q *****************************************************/
+    #FAQ{
+        width:100%;
+        height:auto;
+        background:rgb(248, 246, 246);
+        background:linear-gradient(to left bottom,rgba(66, 118, 187, 0.411),rgb(174, 174, 223));
+
+    }
+
+    .faq-ans-col{
+        background:linear-gradient(to left bottom,rgba(66, 118, 187, 0.411),rgb(174, 174, 223));
+    }
+    .faq-shadow{   
+        box-shadow:  15px 15px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    /****************************************** Conatct Us **************************************************/
+
+    #Contact{
+        width:100%;
+        height:auto;
+        background-color: white;
+
+    }
+    #footer{
+        height: auto;
+        background: #010633;
+    }
+
+    /**************************Media Query************************************/
+    @media only screen and (max-width: 768px) {
+        #HOME{
+            height:auto;
+        }
+        .navbar-brand{
+            width:50%;
+            
+        }
+        .collapse {
+        background-color: rgb(3, 3, 122);
+        margin-left: 80%;
+        
+        }
+        .nav-item{
+            text-align: left;
+            
+            
+            width:100%;
+        }
+        #home-img{
+           margin-left: 143px    ;
+           margin-right: auto;
+
+        }
+        #home-para{
+            margin-left: 50px;
+        }
+        #home-btn{
+            margin-left:300px;
+        }
+        
+        .carousel{
+           margin-left: 250px;
+        }
+        .homeCarousel{
+           padding-left: 36%;
+        }
+
+        #About{
+            height: auto;
+        }
+       
+        #firstCard {
+            width: 210px;
+            height: 200px;
+            text-align: adjust;
+            margin-left: 0;
+            
+        }
+        #secondCard {
+            width: 210px;
+            height: 200px;
+            text-align: adjust;
+            margin-left: 10px;
+            
+        }
+        
+        .iconH{
+        padding: 10%;
+        }
+        .aboutH3{
+            text-align:center;
+            margin-right:11%;;
+        }
+        
+        #firstCard{
+            width: 100%;
+        }
+        #secondCard{
+            width:100%;
+        }
+        .featureImg{
+            margin-top: 5%;
+        }
+        #Features{
+            height: auto;
+        }
+        #Carousel-feature{
+            width:60%;
+            position: absolute;
+            left: -100px;
+            
+        }
+        .carousel{
+            margin-left: 0;
+        }
+        .teamImg{
+            margin-left: 20%;
+            margin-bottom: 10%;
+            width: 50.7%;
+            
+        }
+        .price-cont{
+            height: auto;
+        }
+        .lastPrice{
+            margin-left: 25%;
+            margin-top: 5%;
+        }
+        .submitBtn{
+            margin-left: 40%;;;
+        }
+        .map{
+            margin-top: 5%;
+            margin-left:5%;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .teamImg {
+            width:68%;
+        }
+        .RB{
+            font-size: 10px;
+            /* padding-left: 0%;; */
+            background: red;
+        }
+        #home-btn{
+            margin-left:200px;
+        }
+        #home-img{
+            margin-left: 80px    ;
+            margin-right: auto;
+ 
+         }
+    }
+    @media only screen and (max-width: 320px) {
+        
+        /* .team-img {
+            width:104.5%;
+        }
+        .team-info{
+           width:100%;
+        } */
+        .lastPrice{
+            margin-left:0;
+        }
+   
+    }
+
+    @media only screen and (max-width: 320px) {
+    
+    }
+
+
+   
